@@ -1,6 +1,10 @@
 from denavit_hartenberg import DenavitHartenberg
 from point import Point, Operation
 
+'''
+body class
+'''
+
 
 class Body:
     def __init__(self, parameters, center, roll, pitch, yaw):
